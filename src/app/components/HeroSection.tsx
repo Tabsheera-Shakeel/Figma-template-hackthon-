@@ -8,7 +8,7 @@ const HeroSection = () => {
    
         <div className="w-full lg:w-1/3 mb-8 lg:mb-0 flex justify-center lg:justify-start "> 
           <Image
-            src="/image 32.png"
+            src="/images/image 32.png"
             alt="Left Image"
             width={300}
             height={300}
@@ -35,7 +35,7 @@ const HeroSection = () => {
 
         <div className="w-full lg:w-1/3 flex justify-center lg:justify-end mt-6"> 
           <Image
-            src="/sofa promotional header.png"
+            src="/images/sofa promotional header.png"
             alt="Right Image"
             width={700}
             height={600}
