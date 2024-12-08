@@ -31,7 +31,7 @@ const LatestProducts = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Component 9.png"
+              src="/images/Component 9.png"
               alt="Product 1"
               width={300}
               height={300}
@@ -41,7 +41,7 @@ const LatestProducts = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Leatest product.png"
+              src="/images/Leatest product.png"
               alt="Product 2"
               width={300}
               height={300}
@@ -51,7 +51,7 @@ const LatestProducts = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Component 8.png"
+              src="/images/Component 8.png"
               alt="Product 3"
               width={300}
               height={300}
@@ -65,7 +65,7 @@ const LatestProducts = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Component 10.png"
+              src="/images/Component 10.png"
               alt="Product 4"
               width={300}
               height={300}
@@ -75,7 +75,7 @@ const LatestProducts = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Component 11.png"
+              src="/images/Component 11.png"
               alt="Product 5"
               width={300}
               height={300}
@@ -85,7 +85,7 @@ const LatestProducts = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Component 12.png"
+              src="/images/Component 12.png"
               alt="Product 6"
               width={300}
               height={300}

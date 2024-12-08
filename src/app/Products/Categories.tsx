@@ -15,7 +15,7 @@ const Categories = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Top catagories.png" 
+              src="/images/Top catagories.png" 
               alt="Product 1"
               width={300} 
               height={300} 
@@ -25,7 +25,7 @@ const Categories = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Top catagories (1).png" 
+              src="/images/Top catagories (1).png" 
               alt="Product 2"
               width={300} 
               height={300} 
@@ -35,7 +35,7 @@ const Categories = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Top catagories (2).png" 
+              src="/images/Top catagories (2).png" 
               alt="Product 3"
               width={300} 
               height={300} 
@@ -45,7 +45,7 @@ const Categories = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Top catagories (3).png" 
+              src="/images/Top catagories (3).png" 
               alt="Product 4"
               width={300} 
               height={300} 

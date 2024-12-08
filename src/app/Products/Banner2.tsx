@@ -6,7 +6,7 @@ const Banner = () => {
      
       <div className="w-screen">
         <Image
-          src="/Group 162.png" 
+          src="/images/Group 162.png" 
           alt="Banner Image"
           width={1920} 
           height={650} 
@@ -16,7 +16,7 @@ const Banner = () => {
 
       <div className="flex justify-center mt-12 px-4">
         <Image
-          src="/image 1174.png" 
+          src="/images/image 1174.png" 
           alt="Product Image"
           width={500}
           height={450}

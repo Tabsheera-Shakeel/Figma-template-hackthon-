@@ -14,10 +14,10 @@ const TrendingProducts = () => {
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
     
             {[
-              '/Trending products.png', 
-              '/Trending products (1).png',
-              '/Trending products (2).png',
-              '/Trending products (3).png',
+              '/images/Trending products.png', 
+              '/images/Trending products (1).png',
+              '/images/Trending products (2).png',
+              '/images/Trending products (3).png',
             ].map((src, index) => (
               <div key={index} className="flex justify-center">
                 <Image
@@ -37,7 +37,7 @@ const TrendingProducts = () => {
             <div className="col-span-3 grid grid-cols-2 gap-4">
               <div>
                 <Image
-                  src="/Group 154.png" 
+                  src="/images/Group 154.png" 
                   alt="Wide Image 1"
                   width={450}
                   height={300}
@@ -46,7 +46,7 @@ const TrendingProducts = () => {
               </div>
               <div>
                 <Image
-                  src="/Group 155.png" 
+                  src="/images/Group 155.png" 
                   alt="Wide Image 2"
                   width={450}
                   height={300}
@@ -56,9 +56,9 @@ const TrendingProducts = () => {
             </div>
             <div className="col-span-1 flex flex-col gap-4">
               {[
-                '/Trnding products list.png', 
-                '/Trnding products list (1).png',
-                '/Trnding products list (2).png',
+                '/images/Trnding products list.png', 
+                '/images/Trnding products list (1).png',
+                '/images/Trnding products list (2).png',
               ].map((src, index) => (
                 <Image
                   key={index}

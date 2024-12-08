@@ -7,7 +7,7 @@ export const BannerPage = () => {
         <div>
         <div className="flex justify-center bg-slate-100">
             <Image
-              src="/unique feature sofa.png"
+              src="/images/unique feature sofa.png"
               alt="banner"
               width={800} 
               height={650} 

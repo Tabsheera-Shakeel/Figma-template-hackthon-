@@ -13,7 +13,7 @@ const Blogs = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Leatest blog.png" 
+              src="/images/Leatest blog.png" 
               alt="Product 1"
               width={300} 
               height={300} 
@@ -23,7 +23,7 @@ const Blogs = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Leatest blog (1).png" 
+              src="/images/Leatest blog (1).png" 
               alt="Product 2"
               width={300} 
               height={300} 
@@ -33,7 +33,7 @@ const Blogs = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Leatest blog (2).png" 
+              src="/images/Leatest blog (2).png" 
               alt="Product 3"
               width={300} 
               height={300} 

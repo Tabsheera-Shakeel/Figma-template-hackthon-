@@ -12,7 +12,7 @@ const FeaturedProducts = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Featured product (1).png"
+              src="/images/Featured product (1).png"
               alt="Product 1"
               width={300}
               height={300}
@@ -22,7 +22,7 @@ const FeaturedProducts = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Featured product.png"
+              src="/images/Featured product.png"
               alt="Product 2"
               width={300}
               height={300}
@@ -32,7 +32,7 @@ const FeaturedProducts = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Component 3.png"
+              src="/images/Component 3.png"
               alt="Product 3"
               width={300}
               height={300}
@@ -42,7 +42,7 @@ const FeaturedProducts = () => {
 
           <div className="flex justify-center">
             <Image
-              src="/Component 4.png"
+              src="/images/Component 4.png"
               alt="Product 4"
               width={300}
               height={300}

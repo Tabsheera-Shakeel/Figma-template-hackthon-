@@ -12,7 +12,7 @@ const DiscountItems = () => {
       
         <div className="flex justify-center">
           <Image
-            src="/discount sofa.png" 
+            src="/images/discount sofa.png" 
             alt="Discount Sofa"
             width={1000} 
             height={650} 

@@ -13,7 +13,7 @@ const OfferProducts = () => {
 
             <div className="flex justify-center relative">
               <Image
-                src="/what shopex offer.png"
+                src="/images/what shopex offer.png"
                 alt="Product 1"
                 width={300}
                 height={300}
@@ -21,7 +21,7 @@ const OfferProducts = () => {
               />
               <div className="absolute top-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <Image
-                  src="/car.png.png"
+                  src="/images/car.png.png"
                   alt="Center Image 1"
                   width={100}
                   height={100}
@@ -32,7 +32,7 @@ const OfferProducts = () => {
 
             <div className="flex justify-center relative">
               <Image
-                src="/what shopex offer.png"
+                src="/images/what shopex offer.png"
                 alt="Product 2"
                 width={300}
                 height={300}
@@ -40,7 +40,7 @@ const OfferProducts = () => {
               />
               <div className="absolute top-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <Image
-                  src="/hand.png"
+                  src="/images/hand.png"
                   alt="Center Image 2"
                   width={100}
                   height={100}
@@ -51,7 +51,7 @@ const OfferProducts = () => {
 
             <div className="flex justify-center relative">
               <Image
-                src="/what shopex offer.png"
+                src="/images/what shopex offer.png"
                 alt="Product 3"
                 width={300}
                 height={300}
@@ -59,7 +59,7 @@ const OfferProducts = () => {
               />
               <div className="absolute top-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <Image
-                  src="/medal.png"
+                  src="/images/medal.png"
                   alt="Center Image 3"
                   width={100}
                   height={100}
@@ -70,7 +70,7 @@ const OfferProducts = () => {
 
             <div className="flex justify-center relative">
               <Image
-                src="/what shopex offer.png"
+                src="/images/what shopex offer.png"
                 alt="Product 4"
                 width={300}
                 height={300}
@@ -78,7 +78,7 @@ const OfferProducts = () => {
               />
               <div className="absolute top-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <Image
-                  src="/time.png"
+                  src="/images/time.png"
                   alt="Center Image 4"
                   width={100}
                   height={100}
