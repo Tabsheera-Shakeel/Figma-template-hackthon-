@@ -264,10 +264,10 @@ const TrendingProducts = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {/* Define each product with its own image path */}
             {[
-              { img: '/images/Trending products-first.png', name: 'Product 1', price: '$45.00', originalPrice: '$60.00' },
-              { img: '/images/Trending products-second.png', name: 'Product 2', price: '$50.00', originalPrice: '$70.00' },
-              { img: '/images/Trending products-third.png', name: 'Product 3', price: '$30.00', originalPrice: '$40.00' },
-              { img: '/images/Trending products-Fourth.png', name: 'Product 4', price: '$60.00', originalPrice: '$80.00' }
+              { img: '/images/Trending-products-first.png', name: 'Product 1', price: '$45.00', originalPrice: '$60.00' },
+              { img: '/images/Trending-products-second.png', name: 'Product 2', price: '$50.00', originalPrice: '$70.00' },
+              { img: '/images/Trending-products-third.png', name: 'Product 3', price: '$30.00', originalPrice: '$40.00' },
+              { img: '/images/Trending-products-fourth.png', name: 'Product 4', price: '$60.00', originalPrice: '$80.00' }
             ].map((product, index) => (
               <div key={index} className="bg-white p-4 rounded-lg shadow-lg flex flex-col items-center">
                 {/* Product Image */}

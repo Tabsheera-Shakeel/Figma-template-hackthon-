@@ -16,7 +16,7 @@ const Banner = () => {
 
       <div className="flex justify-center mt-12 px-4">
         <Image
-          src="/images/image 1174.png" 
+          src="/images/image-1174.png" 
           alt="Product Image"
           width={500}
           height={450}
