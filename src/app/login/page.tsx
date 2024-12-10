@@ -67,7 +67,7 @@ export default function LoginPage() {
 
       <div className="flex justify-center mt-12">
         <Image
-          src="/images/image 1174.png"
+          src="/images/image-1174.png"
           alt="Centered Product"
           width={900}
           height={600}
