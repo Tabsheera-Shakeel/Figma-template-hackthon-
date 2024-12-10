@@ -66,7 +66,7 @@ const FeaturedProducts = () => {
           <div className="bg-gray-100 p-4 rounded-lg shadow-lg">
             <div className="relative">
               <Image
-                src="/images/Component 4 (1).png"
+                src="/images/Component4-Copy.png"
                 alt="Product 4"
                 width={500}
                 height={500}
