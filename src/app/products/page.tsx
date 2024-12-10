@@ -36,7 +36,6 @@ const Page = () => {
                 />
               </div>
 
-              {/* Sort By Search Bar */}
               <div className="flex items-center space-x-2 w-full sm:w-1/3">
                 <label htmlFor="sortBy" className="text-sm text-blue-950">Sort By:</label>
                 <input
@@ -68,7 +67,7 @@ const Page = () => {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
-                  src="/images/Rectangle 32.png" 
+                  src="/images/Rectangle-32.png" 
                   alt="Blog Image 1"
                   width={256}
                   height={256}
@@ -104,7 +103,7 @@ const Page = () => {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
-                  src="/images/Rectangle 32 (1).png" 
+                  src="/images/Rectangle-32-(1).png" 
                   alt="Blog Image 2"
                   width={256}
                   height={256}
@@ -141,7 +140,7 @@ const Page = () => {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
-                  src="/images/Rectangle 32 (2).png" 
+                  src="/images/Rectangle-32-(2).png" 
                   alt="Blog Image 3"
                   width={256}
                   height={256}
@@ -177,7 +176,7 @@ const Page = () => {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
-                  src="/images/Rectangle 32 (3).png" 
+                  src="/images/Rectangle-32-(3).png" 
                   alt="Blog Image 4"
                   width={256}
                   height={256}
@@ -187,7 +186,7 @@ const Page = () => {
               <div className="md:flex-grow ml-6">
                
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 3</span>
+                  <span className="font-semibold text-blue-950">Blog Name 4</span>
                 </div>
 
                 <div className="flex items-center justify-start space-x-4 mb-2">
@@ -213,7 +212,7 @@ const Page = () => {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
-                  src="/images/Rectangle 32 (4).png" 
+                  src="/images/Rectangle-32-(4).png" 
                   alt="Blog Image 5"
                   width={256}
                   height={256}
@@ -223,7 +222,7 @@ const Page = () => {
               <div className="md:flex-grow ml-6">
                
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 3</span>
+                  <span className="font-semibold text-blue-950">Blog Name 5</span>
                 </div>
 
                 <div className="flex items-center justify-start space-x-4 mb-2">
@@ -249,7 +248,7 @@ const Page = () => {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
-                  src="/images/Rectangle 32 (6).png" 
+                  src="/images/Rectangle-32-(6).png" 
                   alt="Blog Image 6"
                   width={256}
                   height={256}
@@ -259,7 +258,7 @@ const Page = () => {
               <div className="md:flex-grow ml-6">
                
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 3</span>
+                  <span className="font-semibold text-blue-950">Blog Name 6</span>
                 </div>
 
                 <div className="flex items-center justify-start space-x-4 mb-2">
@@ -287,7 +286,7 @@ const Page = () => {
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
-                  src="/images/Rectangle 32 (5).png" 
+                  src="/images/Rectangle-32-(5).png" 
                   alt="Blog Image 7"
                   width={256}
                   height={256}
@@ -297,7 +296,7 @@ const Page = () => {
               <div className="md:flex-grow ml-6">
                
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 3</span>
+                  <span className="font-semibold text-blue-950">Blog Name 7</span>
                 </div>
 
                 <div className="flex items-center justify-start space-x-4 mb-2">
@@ -322,7 +321,7 @@ const Page = () => {
 
             <div className="flex justify-center mt-12">
             <Image
-              src="/images/image 1174.png"
+              src="/images/image-1174.png"
               alt="Centered Product"
               width={600}
               height={300}
