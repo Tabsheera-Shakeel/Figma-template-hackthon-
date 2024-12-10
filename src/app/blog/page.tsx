@@ -146,7 +146,7 @@ export default function BlogPage() {
       </div>
       <div className="flex justify-center mt-12">
             <Image
-              src="/images/image 1174.png"
+              src="/images/image-1174.png"
               alt="Centered Product"
               width={600}
               height={300}
