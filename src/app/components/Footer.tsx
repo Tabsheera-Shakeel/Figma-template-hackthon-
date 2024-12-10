@@ -3,7 +3,7 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 
 const Footer = () => {
     return (
-        <footer id='Contact' className="text-gray-600 body-font bg-gray-100">
+        <footer  className="text-gray-600 body-font bg-gray-100">
             <div className="container mx-auto px-5 py-12">
                 <div className="flex flex-wrap justify-between gap-8 md:flex-nowrap text-center md:text-left">
                  

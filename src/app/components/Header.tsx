@@ -1,9 +1,10 @@
 import { FaEnvelope, FaPhoneAlt, FaUser, FaHeart, FaShoppingCart } from 'react-icons/fa';
 import { MdKeyboardArrowDown } from 'react-icons/md';
+import Link from 'next/link';
 
 const Header = () => {
   return (
-    <div className="bg-purple-600 text-white text-sm py-2">
+    <div className="bg-purple-700 text-white text-sm py-2">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center px-6 sm:px-10">
         
         <div className="flex items-center space-x-6 mb-2 sm:mb-0">
@@ -32,9 +33,14 @@ const Header = () => {
          
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2 cursor-pointer">
-              <FaUser />
+            <FaUser />
+            <Link href="/login">
+            
               <span>Login</span>
+              </Link>
             </div>
+
+    
             <FaHeart className="cursor-pointer" />
             <FaShoppingCart className="cursor-pointer" />
           </div>

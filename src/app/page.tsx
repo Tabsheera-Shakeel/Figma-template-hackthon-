@@ -1,22 +1,17 @@
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import HeroSection from "./components/HeroSection";
-import FeaturedProducts from "./Products/FeaturedProducts";
-import LatestProducts from "./Products/LatestProducts";
-import OfferProducts from "./Products/Offer";
-import { BannerPage } from "./Products/BannerPage";
-import TrendingProducts from "./Products/TrendingProducs";
-import DiscountItems from "./Products/DiscountItems";
-import Categories from "./Products/Categories";
-import Banner from "./Products/Banner2";
-import Blogs from "./Products/LatestBlog";
-import Footer from "./components/Footer";
+import HeroSection from "./home/HeroSection";
+import FeaturedProducts from "./home/FeaturedProducts";
+import LatestProducts from "./home/LatestProducts";
+import OfferProducts from "./home/Offer";
+import { BannerPage } from "./home/BannerPage";
+import TrendingProducts from "./home/TrendingProducs";
+import DiscountItems from "./home/DiscountItems";
+import Categories from "./home/Categories";
+import Banner from "./home/Banner2";
+import Blogs from "./home/LatestBlog";
 
 export default function Home() {
   return (
     <div>
-      <Header/>
-      <Navbar/>
       <HeroSection/>
       <FeaturedProducts/>
       <LatestProducts/>
@@ -27,7 +22,6 @@ export default function Home() {
       <Categories/>
       <Banner/>
       <Blogs/>
-      <Footer/>
     </div>
   );
 }

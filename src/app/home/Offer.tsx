@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const OfferProducts = () => {
   return (
-    <div id="shop" className="py-12">
+    <div  className="py-12">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold text-blue-900">What Shopex Offer!</h2>
       </div>

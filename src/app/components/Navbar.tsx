@@ -25,22 +25,25 @@ const Navbar = () => {
 
         <div className="hidden lg:flex items-center space-x-6">
           <div className="flex items-center space-x-1 text-pink-500 cursor-pointer">
-            <span>Home</span>
-            <MdKeyboardArrowDown />
+          <Link href="/" className="text-pink-600 hover:text-pink-500 flex items-center space-x-1">
+              <span>Home</span>
+                 <MdKeyboardArrowDown />
+         </Link>
+
           </div>
-          <Link href="#" className="text-gray-800 hover:text-pink-500">
+          <Link href="/pages" className="text-gray-800 hover:text-pink-500">
             Pages
           </Link>
-          <Link href="#products" className="text-gray-800 hover:text-pink-500">
+          <Link href="/products" className="text-gray-800 hover:text-pink-500">
             Products
           </Link>
-          <Link href="#LatestBlog" className="text-gray-800 hover:text-pink-500">
+          <Link href="/blog" className="text-gray-800 hover:text-pink-500">
             Blog
           </Link>
-          <Link href="#shop" className="text-gray-800 hover:text-pink-500">
+          <Link href="/shop" className="text-gray-800 hover:text-pink-500">
             Shop
           </Link>
-          <Link href="#Contact" className="text-gray-800 hover:text-pink-500">
+          <Link href="/contact" className="text-gray-800 hover:text-pink-500">
             Contact
           </Link>
         </div>
@@ -64,22 +67,24 @@ const Navbar = () => {
       >
         <div className="space-y-4">
           <div className="flex items-center space-x-1 text-pink-500 cursor-pointer">
-            <span>Home</span>
-            <MdKeyboardArrowDown />
+          <Link href="/" className="text-pink-600 hover:text-pink-500 flex items-center space-x-1">
+              <span>Home</span>
+              <MdKeyboardArrowDown />
+         </Link>
           </div>
-          <Link href="#" className="text-gray-800 hover:text-pink-500 block">
+          <Link href="/pages" className="text-gray-800 hover:text-pink-500 block">
             Pages
           </Link>
-          <Link href="#" className="text-gray-800 hover:text-pink-500 block">
+          <Link href="/products" className="text-gray-800 hover:text-pink-500 block">
             Products
           </Link>
-          <Link href="#" className="text-gray-800 hover:text-pink-500 block">
+          <Link href="/blog" className="text-gray-800 hover:text-pink-500 block">
             Blog
           </Link>
-          <Link href="#" className="text-gray-800 hover:text-pink-500 block">
+          <Link href="/shop" className="text-gray-800 hover:text-pink-500 block">
             Shop
           </Link>
-          <Link href="#" className="text-gray-800 hover:text-pink-500 block">
+          <Link href="/contact" className="text-gray-800 hover:text-pink-500 block">
             Contact
           </Link>
         </div>

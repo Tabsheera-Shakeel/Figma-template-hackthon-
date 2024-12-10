@@ -9,3 +9,13 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
   }
+
+  /* Add this to your global CSS or Tailwind config */
+@layer utilities {
+  .line-clamp-2 {
+    @apply overflow-hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}
