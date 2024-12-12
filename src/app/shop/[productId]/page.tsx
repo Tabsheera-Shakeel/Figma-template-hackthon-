@@ -1,15 +1,18 @@
-import { FaStar } from 'react-icons/fa';
-import Image from 'next/image';
+import { FaStar } from "react-icons/fa";
+import Image from "next/image";
 
-interface Props {
-  params: { productId: string };
+
+interface PageProps {
+  params: Promise<{ productId: string }>;
 }
 
-const ProductPage = ({ params }: Props) => {
-  const { productId } = params;
+
+const ProductPage = async ({ params }: PageProps) => {
+  
+  const { productId } = await params;
 
   return (
-    <div className="min-h-screen py-10">
+    <div className="py-10">
       <section className="bg-gray-100 py-10">
         <div className="max-w-7xl mx-auto px-6 sm:px-10">
           <h1 className="text-4xl font-bold text-blue-950">Shop Grid Default</h1>
@@ -24,7 +27,7 @@ const ProductPage = ({ params }: Props) => {
           <div className="flex-1">
             <Image
               src={`/images/Rectangle 138.png`}
-              alt={`Product ${productId}`}
+              alt={`Product Image for Product ${productId}`} // Improved alt text
               width={500}
               height={500}
               className="rounded-lg object-cover"
@@ -76,3 +79,12 @@ const ProductPage = ({ params }: Props) => {
 
 export default ProductPage;
 
+
+export async function generateMetadata({ params }: { params: Promise<{ productId: string }> }) {
+  const { productId } = await params;
+
+  return {
+    title: `Product ${productId} | Shop`,
+    description: `Details for Product ${productId}`,
+  };
+}
