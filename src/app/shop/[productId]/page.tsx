@@ -1,20 +1,16 @@
-import Image from 'next/image';
 import { FaStar } from 'react-icons/fa';
+import Image from 'next/image';
 
 interface Props {
-  params: Promise<{
-    productId: string;
-  }>;
+  params: { productId: string };
 }
 
-const ProductPage = async ({ params }: Props) => {
-  
-  const resolvedParams = await params;
-  const { productId } = resolvedParams;
+const ProductPage = ({ params }: Props) => {
+  const { productId } = params;
 
   return (
     <div className="min-h-screen py-10">
-      <section className=" bg-gray-100 py-10">
+      <section className="bg-gray-100 py-10">
         <div className="max-w-7xl mx-auto px-6 sm:px-10">
           <h1 className="text-4xl font-bold text-blue-950">Shop Grid Default</h1>
           <p className="text-blue-950 text-sm mt-2">
@@ -74,18 +70,9 @@ const ProductPage = async ({ params }: Props) => {
           </p>
         </div>
       </div>
-
-     
     </div>
   );
 };
 
 export default ProductPage;
 
-export async function generateStaticParams() {
-  return [
-    { productId: "1" },
-    { productId: "2" },
-    { productId: "3" },
-  ];
-}

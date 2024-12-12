@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { FaCartPlus, FaHeart, FaSearch } from 'react-icons/fa';
 
 const ShopPage = () => {
@@ -155,26 +156,29 @@ const ShopPage = () => {
           </div>
         </div>
       </aside>
-
+   
       <section className="text-gray-600 body-font overflow-hidden -mt-14">
-        
+    
         <div className="container px-5 py-24 mx-auto">
           <div className="-my-8 divide-y-2 divide-gray-100">
-
+         
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
                   src={`/images/Rectangle 32 (7).png`}
-                  alt="Blog Image 1"
+                  alt="Product Image 1"
                   width={256}
                   height={256}
                   className="object-cover rounded-lg"
                 />
               </div>
+              
               <div className="md:flex-grow ml-6">
+              <Link href={`/shop/${1}`}>
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 1</span>
+                  <span className="font-semibold text-blue-950">Product Name 1</span>
                 </div>
+               </Link>
 
                 <div className="flex items-center justify-start space-x-4 mb-2">
                   <div className="text-blue-500 text-lg font-semibold">$49.99</div>
@@ -183,7 +187,7 @@ const ShopPage = () => {
                     <span className="text-yellow-400 text-sm">★★★★★</span>
                   </div>
                 </div>
-
+                
                 <p className="leading-relaxed text-sm mb-4 line-clamp-2">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
                 </p>
@@ -201,17 +205,18 @@ const ShopPage = () => {
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
                   src={`/images/Rectangle 32 (8).png`} 
-                  alt="Blog Image 2"
+                  alt="Product Image 2"
                   width={256}
                   height={256}
                   className="object-cover rounded-lg"
                 />
               </div>
               <div className="md:flex-grow ml-6">
+              <Link href={`/shop/${2}`}>
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 2</span>
+                  <span className="font-semibold text-blue-950">Product Name 2</span>
                 </div>
-
+                </Link>
                 <div className="flex items-center justify-start space-x-4 mb-2">
                   <div className="text-blue-500 text-lg font-semibold">$39.99</div>
                   <div className="line-through text-pink-500 text-sm">$59.99</div>
@@ -219,7 +224,7 @@ const ShopPage = () => {
                     <span className="text-yellow-400 text-sm">★★★★</span>
                   </div>
                 </div>
-
+                 
                 <p className="leading-relaxed text-sm mb-4 line-clamp-2">
                   Nulla facilisi. Nam malesuada augue ut nulla condimentum, at elementum arcu placerat. Ut et nunc ut urna.
                 </p>
@@ -231,21 +236,26 @@ const ShopPage = () => {
                 </div>
               </div>
             </div>
+            
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
                   src={`/images/Rectangle 32 (9).png`} 
-                  alt="Blog Image 3"
+                  alt="Product Image 3"
                   width={256}
                   height={256}
                   className="object-cover rounded-lg"
                 />
               </div>
+              
               <div className="md:flex-grow ml-6">
+             
+              <Link href={`/shop/${3}`}>
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 1</span>
+                  <span className="font-semibold text-blue-950">Product Name 3</span>
                 </div>
-
+                </Link>
+                
                 <div className="flex items-center justify-start space-x-4 mb-2">
                   <div className="text-blue-500 text-lg font-semibold">$49.99</div>
                   <div className="line-through text-pink-500 text-sm">$69.99</div>
@@ -253,7 +263,7 @@ const ShopPage = () => {
                     <span className="text-yellow-400 text-sm">★★★★★</span>
                   </div>
                 </div>
-
+               
                 <p className="leading-relaxed text-sm mb-4 line-clamp-2">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
                 </p>
@@ -270,17 +280,18 @@ const ShopPage = () => {
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
                   src={`/images/Rectangle 32 (10).png`} 
-                  alt="Blog Image 4"
+                  alt="Product Image 4"
                   width={256}
                   height={256}
                   className="object-cover rounded-lg"
                 />
               </div>
               <div className="md:flex-grow ml-6">
-                <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 1</span>
+              <Link href={`/shop/${4}`}>
+                <div className="flex items-center space-x-2 mb-2">  
+                  <span className="font-semibold text-blue-950">Product Name 4</span>
                 </div>
-
+               </Link>
                 <div className="flex items-center justify-start space-x-4 mb-2">
                   <div className="text-blue-500 text-lg font-semibold">$49.99</div>
                   <div className="line-through text-pink-500 text-sm">$69.99</div>
@@ -305,17 +316,18 @@ const ShopPage = () => {
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
                   src={`/images/Rectangle 32 (11).png`} 
-                  alt="Blog Image 5"
+                  alt="Product Image 5"
                   width={256}
                   height={256}
                   className="object-cover rounded-lg"
                 />
               </div>
               <div className="md:flex-grow ml-6">
+              <Link href={`/shop/${5}`}>
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 1</span>
+                  <span className="font-semibold text-blue-950">Product Name 5</span>
                 </div>
-
+               </Link>
                 <div className="flex items-center justify-start space-x-4 mb-2">
                   <div className="text-blue-500 text-lg font-semibold">$49.99</div>
                   <div className="line-through text-pink-500 text-sm">$69.99</div>
@@ -346,6 +358,7 @@ const ShopPage = () => {
               className="object-cover rounded-lg"
             />
           </div>
+       
       </section>
       
     </div>

@@ -68,7 +68,7 @@ const Page = () => {
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
                   src="/images/Rectangle-32.png" 
-                  alt="Blog Image 1"
+                  alt="Product Image 1"
                   width={256}
                   height={256}
                   className="object-cover rounded-lg"
@@ -76,7 +76,7 @@ const Page = () => {
               </div>
               <div className="md:flex-grow ml-6">
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 1</span>
+                  <span className="font-semibold text-blue-950">Product Name 1</span>
                 </div>
 
                 <div className="flex items-center justify-start space-x-4 mb-2">
@@ -104,7 +104,7 @@ const Page = () => {
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
                   src="/images/Rectangle-32-(1).png" 
-                  alt="Blog Image 2"
+                  alt="Product Image 2"
                   width={256}
                   height={256}
                   className="object-cover rounded-lg"
@@ -113,7 +113,7 @@ const Page = () => {
               <div className="md:flex-grow ml-6">
         
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 2</span>
+                  <span className="font-semibold text-blue-950">Product Name 2</span>
                 </div>
 
                 <div className="flex items-center justify-start space-x-4 mb-2">
@@ -141,7 +141,7 @@ const Page = () => {
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
                   src="/images/Rectangle-32-(2).png" 
-                  alt="Blog Image 3"
+                  alt="Product Image 3"
                   width={256}
                   height={256}
                   className="object-cover rounded-lg"
@@ -150,7 +150,7 @@ const Page = () => {
               <div className="md:flex-grow ml-6">
                
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 3</span>
+                  <span className="font-semibold text-blue-950">Product Name 3</span>
                 </div>
 
                 <div className="flex items-center justify-start space-x-4 mb-2">
@@ -177,7 +177,7 @@ const Page = () => {
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
                   src="/images/Rectangle-32-(3).png" 
-                  alt="Blog Image 4"
+                  alt="Product Image 4"
                   width={256}
                   height={256}
                   className="object-cover rounded-lg"
@@ -186,7 +186,7 @@ const Page = () => {
               <div className="md:flex-grow ml-6">
                
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 4</span>
+                  <span className="font-semibold text-blue-950">Product Name 4</span>
                 </div>
 
                 <div className="flex items-center justify-start space-x-4 mb-2">
@@ -213,7 +213,7 @@ const Page = () => {
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
                   src="/images/Rectangle-32-(4).png" 
-                  alt="Blog Image 5"
+                  alt="Product Image 5"
                   width={256}
                   height={256}
                   className="object-cover rounded-lg"
@@ -222,7 +222,7 @@ const Page = () => {
               <div className="md:flex-grow ml-6">
                
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 5</span>
+                  <span className="font-semibold text-blue-950">Product Name 5</span>
                 </div>
 
                 <div className="flex items-center justify-start space-x-4 mb-2">
@@ -249,7 +249,7 @@ const Page = () => {
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
                   src="/images/Rectangle-32-(6).png" 
-                  alt="Blog Image 6"
+                  alt="Product Image 6"
                   width={256}
                   height={256}
                   className="object-cover rounded-lg"
@@ -258,7 +258,7 @@ const Page = () => {
               <div className="md:flex-grow ml-6">
                
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 6</span>
+                  <span className="font-semibold text-blue-950">Product Name 6</span>
                 </div>
 
                 <div className="flex items-center justify-start space-x-4 mb-2">
@@ -287,7 +287,7 @@ const Page = () => {
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <Image
                   src="/images/Rectangle-32-(5).png" 
-                  alt="Blog Image 7"
+                  alt="Product Image 7"
                   width={256}
                   height={256}
                   className="object-cover rounded-lg"
@@ -296,7 +296,7 @@ const Page = () => {
               <div className="md:flex-grow ml-6">
                
                 <div className="flex items-center space-x-2 mb-2">
-                  <span className="font-semibold text-blue-950">Blog Name 7</span>
+                  <span className="font-semibold text-blue-950">Product Name 7</span>
                 </div>
 
                 <div className="flex items-center justify-start space-x-4 mb-2">

@@ -28,14 +28,12 @@ export default function BlogPage() {
             />
           </div>
 
-          {/* Heading with Loreum Text */}
           <div className="mt-8">
             <h2 className="text-3xl font-bold text-blue-900">Lorem Ipsum Dolor Sit Amet</h2>
             <p className="text-blue-900 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
             <p className="text-blue-900 mt-4">Praesent libero. Sed cursus ante dapibus diam. Nulla quis sem at nibh elementum imperdiet.</p>
           </div>
 
-          {/* Two Line Lorem Section */}
           <div className="mt-8">
             <p className="text-blue-900">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.
@@ -44,8 +42,6 @@ export default function BlogPage() {
               Nulla quis sem at nibh elementum imperdiet. Integer nec odio. Praesent libero.
             </p>
           </div>
-
-          {/* Three Big Image Sections */}
           <div className="space-y-8">
             <div className="mt-8">
               <Image 
@@ -77,9 +73,9 @@ export default function BlogPage() {
           </div>
         </div>
 
-        {/* Right Sidebar (25% of the Screen) */}
+      
         <div className="space-y-8 md:col-span-1">
-          {/* Search Section */}
+    
           <div>
             <h3 className="text-xl font-bold text-blue-950">Search</h3>
             <div className="flex items-center mt-4 border border-gray-300">
